@@ -1,0 +1,95 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    background-color: black;
+}
+/*Sidebar styling*/
+header{
+    display: flex;
+}
+
+nav,.top-nav,.bottom-nav ul, .top-nav a{
+    display: flex;
+    
+    
+}
+nav{
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+.top-nav{
+    gap: 40%;
+}
+.top-nav a {
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   font-size: 25px;
+   font-weight: bold;
+   color: white;
+   gap: 7px;
+}
+.top-nav a img{
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    
+}
+form input{
+    padding: 10px;
+    width: 400px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+form input::placeholder{
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    background-color: black;
+    border: none;
+
+}
+button img{
+    width: 30px;
+    height: auto;
+}
+/*bottom nav styling*/
+.bottom-nav ul{
+    gap: 5px;
+    list-style: none;
+}
+.bottom-nav ul li{
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: grey;
+    text-wrap: nowrap;
+}
+.bottom-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*side-bar*/
+
+.side_bar_icon{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    gap: 15px;
+}
+.side_bar_icon a{
+    text-decoration: none;
+    color: white;
+    text-wrap: wrap;
+}
+.side_bar_icon a img{
+    width: 30px;
+    height: auto;
+}
